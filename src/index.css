@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .link {
+    @apply hover:underline hover:underline-offset-4 hover:text-red-700;
+  }
+  .activelink {
+    @apply underline underline-offset-4 text-red-700;
+  }
+}
+.text-with-shadow {
+  text-shadow: 2px 2px 4px rgb(232 121 249);
+}
+
+.jodit-status-bar {
+  visibility: collapse;
+}
